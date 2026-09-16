@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding:0px;
+        }
+         .navbar{
+
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(9, 9, 37);
+            padding: 15px;
+            align-items: center;
+            height: 60px;
+            color: white;
+
+
+
+        }
+        .logo{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .links a{
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+        .links a:hover{
+            color: yellow;
+        }
+        .ww{
+            background-color: rgb(109, 109, 5);
+
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            color: white;
+            margin-top: -1px;
+            cursor: pointer;;
+            font-size: 20px;
+        }
+        .ww:hover{
+            background-color: rgb(114,114,24);
+            color: yellow;
+        }
+        .qq{
+            text-align: center;
+            margin-top: 120px;
+           margin-left: 20px;
+
+        }
+
+        form{
+            width: 520px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 12px rgb(0,0,0,0.08);
+
+
+        }
+
+         input[type="text"],input[type="email"],input[type="tel"]{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            outline: none;
+            border-radius: 8px;
+            font-size: 15px;
+            outline: none;
+            box-sizing:border-box;
+        }
+
+        textarea{
+            resize: none;
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            outline: none;
+            border-radius: 8px;
+            font-size: 15px;
+            outline: none;
+            box-sizing:border-box;
+        }
+        .nn{
+            width: 100%;
+            padding:12px;
+            margin-top: 18px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button[type="submit"]{
+            background-color:black;
+            color: white;
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 20px;
+            
+        }
+        p{
+            margin-bottom: 30px;
+        }
+
+        .cont{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .box1{
+            width: 220px;
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgb(0,0,0,0.1);
+        }
+        .box1 img{
+            width: 40px;
+            float:none;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">My Website</div>
+
+        <div class="links">
+            <a href="homee.html">home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <button class="ww">
+            logout
+        </button>
+    </div>   
+    <div class="qq">
+    <h1>Contact Us</h1><br>
+    <p>Have questions? We'd love to hear from you.</p>
+    </div>
+
+    <form action="">
+        <h2>Send Message</h2>
+        <input type="text" name="full name" placeholder=" Your Name"><br><br>
+        <input type="email" name="mail id" placeholder="Your Email"><br><br>
+        <input type="tel" name="tellphone" placeholder="Phone Number"><br><br>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button class="nn" type="submit">send message</button>
+    </form>
+
+    <div class="cont">
+     <div class="box1">
+        <img src="https://ancilaansari.github.io/sample_project2/placeholder.png" alt=""><br>
+        <h4>Address</h4><br>
+        <p4>Kochi, Kerala, India</p4>
+    </div>
+
+    <div class="box1">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt=""><br>
+        <h4>Email</h4><br>
+        <p4>mywebsite@gmail.com</p4>
+    </div>
+
+    <div class="box1">
+        <img src="	https://cdn-icons-png.flaticon.com/512/724/724664.png" alt=""><br>
+        <h4>Phone</h4><br>
+        <p4>+91 9876543210</p4>
+    </div>
+    </div>
+</body>
+</html>
